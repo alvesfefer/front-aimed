@@ -1,0 +1,9 @@
+{
+  "name": "oficial AIMED - Ecossistema de Saúde",
+  "description": "Plataforma de teleatendimento médico integrado, assíncrono e inteligente.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
