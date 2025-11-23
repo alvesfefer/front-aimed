@@ -1,10 +1,6 @@
 import { User, Appointment, Message, Prescription, Medication, VitalSign, Alert } from '../types';
 
-<<<<<<< HEAD
 const API_URL = 'https://back-aimed.vercel.app';
-=======
-const API_URL = 'http://localhost:4000/api';
->>>>>>> 130405c07cc8494bc1068e15be7997869418c4ea
 
 const getHeaders = () => {
   const token = localStorage.getItem('aimed_token');
