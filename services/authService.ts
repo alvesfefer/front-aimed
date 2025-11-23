@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const API_URL = "https://back-aimed.vercel.app";
-=======
-const API_URL = "http://localhost:4000/api/auth";
->>>>>>> 130405c07cc8494bc1068e15be7997869418c4ea
 
 export async function registerUser(name: string, email: string, password: string) {
   const res = await fetch(`${API_URL}/register`, {
